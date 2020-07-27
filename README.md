@@ -15,7 +15,7 @@ I designed the PCB to make it easy to trial and error a smaller pitch keyboard l
 
 You may make Row-Staggered, Columnar-Staggerd, Ortholinear layouts keyboard.
 
-The "te" is named after the Japanese word for 手助け(help) and 手に馴染む(comfort).
+The "te"(手) is named after the Japanese word for 手助け(help) and 手に馴染む(comfort).
 
 ## Why open source?
 
