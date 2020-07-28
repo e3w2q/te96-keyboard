@@ -7,53 +7,53 @@ encoding utf-8
 Sheet 1 1
 Title "te96 Sukeroku Keyboard"
 Date ""
-Rev "2"
+Rev "3"
 Comp "@e3w2q"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6750 2050 0    39   Input ~ 0
+Text GLabel 6200 2100 0    39   Input ~ 0
 Y1
 $Comp
 L #library:MJ-4PP-9 J3
 U 1 1 5CE190C3
-P 1050 4300
-F 0 "J3" H 1080 4718 50  0000 C CNN
-F 1 "MJ-4PP-9" H 1080 4627 50  0000 C CNN
-F 2 "#footprint:MJ-4PP-9" H 1325 4475 50  0001 C CNN
-F 3 "" H 1325 4475 50  0001 C CNN
-	1    1050 4300
+P 2050 4650
+F 0 "J3" H 2080 5068 50  0000 C CNN
+F 1 "MJ-4PP-9" H 2080 4977 50  0000 C CNN
+F 2 "#footprint:MJ-4PP-9" H 2325 4825 50  0001 C CNN
+F 3 "" H 2325 4825 50  0001 C CNN
+	1    2050 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 1400 0    50   Input ~ 0
+Text GLabel 1450 1700 0    50   Input ~ 0
 led
-Text GLabel 2050 1500 0    50   Input ~ 0
+Text GLabel 1450 1800 0    50   Input ~ 0
 data
-Text GLabel 2050 2000 0    50   Input ~ 0
+Text GLabel 1450 2300 0    50   Input ~ 0
 Y1
-Text GLabel 2050 2100 0    50   Input ~ 0
+Text GLabel 1450 2400 0    50   Input ~ 0
 Y2
-Text GLabel 2050 2200 0    50   Input ~ 0
+Text GLabel 1450 2500 0    50   Input ~ 0
 Y3
-Text GLabel 2050 2300 0    50   Input ~ 0
+Text GLabel 1450 2600 0    50   Input ~ 0
 Y4
-Text GLabel 2050 2500 0    50   Input ~ 0
+Text GLabel 1450 2800 0    50   Input ~ 0
 Y6
-Text GLabel 2050 2400 0    50   Input ~ 0
+Text GLabel 1450 2700 0    50   Input ~ 0
 Y5
-Text GLabel 3450 1800 2    50   Input ~ 0
+Text GLabel 2850 2100 2    50   Input ~ 0
 X1
-Text GLabel 3450 1900 2    50   Input ~ 0
+Text GLabel 2850 2200 2    50   Input ~ 0
 X2
-Text GLabel 3450 2000 2    50   Input ~ 0
+Text GLabel 2850 2300 2    50   Input ~ 0
 X3
-Text GLabel 3450 2100 2    50   Input ~ 0
+Text GLabel 2850 2400 2    50   Input ~ 0
 X4
-Text GLabel 3450 2200 2    50   Input ~ 0
+Text GLabel 2850 2500 2    50   Input ~ 0
 X5
-Text GLabel 3450 2300 2    50   Input ~ 0
+Text GLabel 2850 2600 2    50   Input ~ 0
 X6
 $Comp
 L power:GND #PWR02
@@ -106,1101 +106,1101 @@ $EndComp
 $Comp
 L power:VCC #PWR03
 U 1 1 5CE3F20D
-P 3800 1150
-F 0 "#PWR03" H 3800 1000 50  0001 C CNN
-F 1 "VCC" H 3817 1323 50  0000 C CNN
-F 2 "" H 3800 1150 50  0001 C CNN
-F 3 "" H 3800 1150 50  0001 C CNN
-	1    3800 1150
+P 3200 1450
+F 0 "#PWR03" H 3200 1300 50  0001 C CNN
+F 1 "VCC" H 3217 1623 50  0000 C CNN
+F 2 "" H 3200 1450 50  0001 C CNN
+F 3 "" H 3200 1450 50  0001 C CNN
+	1    3200 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5CE4B3AC
-P 4650 2600
-F 0 "#PWR04" H 4650 2350 50  0001 C CNN
-F 1 "GND" H 4650 2450 50  0000 C CNN
-F 2 "" H 4650 2600 50  0001 C CNN
-F 3 "" H 4650 2600 50  0001 C CNN
-	1    4650 2600
+P 950 2050
+F 0 "#PWR04" H 950 1800 50  0001 C CNN
+F 1 "GND" H 950 1900 50  0000 C CNN
+F 2 "" H 950 2050 50  0001 C CNN
+F 3 "" H 950 2050 50  0001 C CNN
+	1    950  2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 4400 2    50   Input ~ 0
+Text GLabel 2250 4750 2    50   Input ~ 0
 data
 $Comp
 L power:GND #PWR08
 U 1 1 5CE6AB53
-P 1550 4450
-F 0 "#PWR08" H 1550 4200 50  0001 C CNN
-F 1 "GND" H 1550 4300 50  0000 C CNN
-F 2 "" H 1550 4450 50  0001 C CNN
-F 3 "" H 1550 4450 50  0001 C CNN
-	1    1550 4450
+P 2550 4800
+F 0 "#PWR08" H 2550 4550 50  0001 C CNN
+F 1 "GND" H 2550 4650 50  0000 C CNN
+F 2 "" H 2550 4800 50  0001 C CNN
+F 3 "" H 2550 4800 50  0001 C CNN
+	1    2550 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR06
 U 1 1 5CE6AC90
-P 1550 4050
-F 0 "#PWR06" H 1550 3900 50  0001 C CNN
-F 1 "VCC" H 1567 4223 50  0000 C CNN
-F 2 "" H 1550 4050 50  0001 C CNN
-F 3 "" H 1550 4050 50  0001 C CNN
-	1    1550 4050
+P 2550 4400
+F 0 "#PWR06" H 2550 4250 50  0001 C CNN
+F 1 "VCC" H 2567 4573 50  0000 C CNN
+F 2 "" H 2550 4400 50  0001 C CNN
+F 3 "" H 2550 4400 50  0001 C CNN
+	1    2550 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 4300 1550 4300
+	2250 4650 2550 4650
 Wire Wire Line
-	1550 4300 1550 4450
+	2550 4650 2550 4800
 Wire Wire Line
-	1250 4200 1550 4200
+	2250 4550 2550 4550
 Wire Wire Line
-	1550 4200 1550 4050
-NoConn ~ 1250 4100
-Text GLabel 7150 1400 1    39   Input ~ 0
+	2550 4550 2550 4400
+NoConn ~ 2250 4450
+Text GLabel 6600 1450 1    39   Input ~ 0
 X1
-Text GLabel 8200 1400 1    39   Input ~ 0
+Text GLabel 7650 1450 1    39   Input ~ 0
 X2
-Text GLabel 9300 1400 1    39   Input ~ 0
+Text GLabel 8750 1450 1    39   Input ~ 0
 X3
 Wire Wire Line
-	4650 2500 4650 2600
-Text GLabel 4650 2500 0    50   Input ~ 0
+	950  1950 950  2050
+Text GLabel 950  1950 0    50   Input ~ 0
 GND
-Text GLabel 2050 1600 0    50   Input ~ 0
+Text GLabel 1450 1900 0    50   Input ~ 0
 GND
-Text GLabel 2050 1700 0    50   Input ~ 0
+Text GLabel 1450 2000 0    50   Input ~ 0
 GND
-Text GLabel 3450 1500 2    50   Input ~ 0
+Text GLabel 2850 1800 2    50   Input ~ 0
 GND
-Text GLabel 10350 1400 1    39   Input ~ 0
+Text GLabel 9800 1450 1    39   Input ~ 0
 X4
-NoConn ~ 3450 1300
-Text GLabel 2050 1300 0    50   Input ~ 0
+NoConn ~ 2850 1600
+Text GLabel 1450 1600 0    50   Input ~ 0
 GND
 Wire Wire Line
-	6750 2050 7550 2050
+	6200 2100 7000 2100
 $Comp
 L #library:SW_and_D SW1
 U 1 1 5E865864
-P 10550 1750
-F 0 "SW1" H 10828 1700 50  0000 L CNN
-F 1 "SW_and_D" H 10828 1609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 1950 50  0001 C CNN
-F 3 "" H 10550 1950 50  0001 C CNN
-	1    10550 1750
+P 10000 1800
+F 0 "SW1" H 10278 1750 50  0000 L CNN
+F 1 "SW_and_D" H 10278 1659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 2000 50  0001 C CNN
+F 3 "" H 10000 2000 50  0001 C CNN
+	1    10000 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 2050
+Connection ~ 7000 2100
 Wire Wire Line
-	7550 2050 8600 2050
+	7000 2100 8050 2100
 Wire Wire Line
-	6750 2650 7550 2650
+	6200 2700 7000 2700
 Wire Wire Line
-	7150 1750 7150 2350
+	6600 1800 6600 2400
 Wire Wire Line
-	6750 3250 7550 3250
+	6200 3300 7000 3300
 Wire Wire Line
-	6750 3850 7550 3850
+	6200 3900 7000 3900
 $Comp
 L #library:SW_and_D SW7
 U 1 1 5E86855F
-P 9500 1750
-F 0 "SW7" H 9778 1700 50  0000 L CNN
-F 1 "SW_and_D" H 9778 1609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 1950 50  0001 C CNN
-F 3 "" H 9500 1950 50  0001 C CNN
-	1    9500 1750
+P 8950 1800
+F 0 "SW7" H 9228 1750 50  0000 L CNN
+F 1 "SW_and_D" H 9228 1659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 2000 50  0001 C CNN
+F 3 "" H 8950 2000 50  0001 C CNN
+	1    8950 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 2350
+Connection ~ 6600 2400
 Wire Wire Line
-	7150 2350 7150 2950
-Connection ~ 7550 2650
+	6600 2400 6600 3000
+Connection ~ 7000 2700
 Wire Wire Line
-	7550 2650 8600 2650
+	7000 2700 8050 2700
 $Comp
 L #library:SW_and_D SW13
 U 1 1 5E8685B9
-P 8400 1750
-F 0 "SW13" H 8678 1700 50  0000 L CNN
-F 1 "SW_and_D" H 8678 1609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 1950 50  0001 C CNN
-F 3 "" H 8400 1950 50  0001 C CNN
-	1    8400 1750
+P 7850 1800
+F 0 "SW13" H 8128 1750 50  0000 L CNN
+F 1 "SW_and_D" H 8128 1659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 2000 50  0001 C CNN
+F 3 "" H 7850 2000 50  0001 C CNN
+	1    7850 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 7150 2950
+Connection ~ 6600 3000
 Wire Wire Line
-	7150 2950 7150 3550
-Connection ~ 7550 3250
+	6600 3000 6600 3600
+Connection ~ 7000 3300
 $Comp
 L #library:SW_and_D SW19
 U 1 1 5E868615
-P 7350 1750
-F 0 "SW19" H 7628 1700 50  0000 L CNN
-F 1 "SW_and_D" H 7628 1609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 1950 50  0001 C CNN
-F 3 "" H 7350 1950 50  0001 C CNN
-	1    7350 1750
+P 6800 1800
+F 0 "SW19" H 7078 1750 50  0000 L CNN
+F 1 "SW_and_D" H 7078 1659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 2000 50  0001 C CNN
+F 3 "" H 6800 2000 50  0001 C CNN
+	1    6800 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 7550 3850
+Connection ~ 7000 3900
 Wire Wire Line
-	7550 3850 8600 3850
+	7000 3900 8050 3900
 $Comp
 L #library:SW_and_D SW2
 U 1 1 5E86866D
-P 10550 2350
-F 0 "SW2" H 10828 2300 50  0000 L CNN
-F 1 "SW_and_D" H 10828 2209 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 2550 50  0001 C CNN
-F 3 "" H 10550 2550 50  0001 C CNN
-	1    10550 2350
+P 10000 2400
+F 0 "SW2" H 10278 2350 50  0000 L CNN
+F 1 "SW_and_D" H 10278 2259 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 2600 50  0001 C CNN
+F 3 "" H 10000 2600 50  0001 C CNN
+	1    10000 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 1750 8200 2350
-Connection ~ 8600 2050
+	7650 1800 7650 2400
+Connection ~ 8050 2100
 Wire Wire Line
-	8600 2050 9700 2050
+	8050 2100 9150 2100
 $Comp
 L #library:SW_and_D SW8
 U 1 1 5E8686E5
-P 9500 2350
-F 0 "SW8" H 9778 2300 50  0000 L CNN
-F 1 "SW_and_D" H 9778 2209 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 2550 50  0001 C CNN
-F 3 "" H 9500 2550 50  0001 C CNN
-	1    9500 2350
+P 8950 2400
+F 0 "SW8" H 9228 2350 50  0000 L CNN
+F 1 "SW_and_D" H 9228 2259 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 2600 50  0001 C CNN
+F 3 "" H 8950 2600 50  0001 C CNN
+	1    8950 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8200 2350
-Connection ~ 8600 2650
+Connection ~ 7650 2400
+Connection ~ 8050 2700
 Wire Wire Line
-	8600 2650 9700 2650
+	8050 2700 9150 2700
 $Comp
 L #library:SW_and_D SW20
 U 1 1 5E8687AB
-P 7350 2350
-F 0 "SW20" H 7628 2300 50  0000 L CNN
-F 1 "SW_and_D" H 7628 2209 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 2550 50  0001 C CNN
-F 3 "" H 7350 2550 50  0001 C CNN
-	1    7350 2350
+P 6800 2400
+F 0 "SW20" H 7078 2350 50  0000 L CNN
+F 1 "SW_and_D" H 7078 2259 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	1    6800 2400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8600 3850
+Connection ~ 8050 3900
 Wire Wire Line
-	8600 3850 9700 3850
+	8050 3900 9150 3900
 $Comp
 L #library:SW_and_D SW3
 U 1 1 5E86880B
-P 10550 2950
-F 0 "SW3" H 10828 2900 50  0000 L CNN
-F 1 "SW_and_D" H 10828 2809 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 3150 50  0001 C CNN
-F 3 "" H 10550 3150 50  0001 C CNN
-	1    10550 2950
+P 10000 3000
+F 0 "SW3" H 10278 2950 50  0000 L CNN
+F 1 "SW_and_D" H 10278 2859 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 3200 50  0001 C CNN
+F 3 "" H 10000 3200 50  0001 C CNN
+	1    10000 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 1750 9300 2350
-Connection ~ 9700 2050
+	8750 1800 8750 2400
+Connection ~ 9150 2100
 Wire Wire Line
-	9700 2050 10750 2050
+	9150 2100 10200 2100
 $Comp
 L #library:SW_and_D SW9
 U 1 1 5E868893
-P 9500 2950
-F 0 "SW9" H 9778 2900 50  0000 L CNN
-F 1 "SW_and_D" H 9778 2809 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 3150 50  0001 C CNN
-F 3 "" H 9500 3150 50  0001 C CNN
-	1    9500 2950
+P 8950 3000
+F 0 "SW9" H 9228 2950 50  0000 L CNN
+F 1 "SW_and_D" H 9228 2859 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 3200 50  0001 C CNN
+F 3 "" H 8950 3200 50  0001 C CNN
+	1    8950 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 9300 2350
+Connection ~ 8750 2400
 Wire Wire Line
-	9300 2350 9300 2950
-Connection ~ 9700 2650
+	8750 2400 8750 3000
+Connection ~ 9150 2700
 Wire Wire Line
-	9700 2650 10750 2650
+	9150 2700 10200 2700
 $Comp
 L #library:SW_and_D SW15
 U 1 1 5E8688F7
-P 8400 2950
-F 0 "SW15" H 8678 2900 50  0000 L CNN
-F 1 "SW_and_D" H 8678 2809 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 3150 50  0001 C CNN
-F 3 "" H 8400 3150 50  0001 C CNN
-	1    8400 2950
+P 7850 3000
+F 0 "SW15" H 8128 2950 50  0000 L CNN
+F 1 "SW_and_D" H 8128 2859 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 3200 50  0001 C CNN
+F 3 "" H 7850 3200 50  0001 C CNN
+	1    7850 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 9300 2950
+Connection ~ 8750 3000
 Wire Wire Line
-	9300 2950 9300 3550
-Connection ~ 9700 3250
+	8750 3000 8750 3600
+Connection ~ 9150 3300
 Wire Wire Line
-	9700 3250 10750 3250
+	9150 3300 10200 3300
 $Comp
 L #library:SW_and_D SW21
 U 1 1 5E86895F
-P 7350 2950
-F 0 "SW21" H 7628 2900 50  0000 L CNN
-F 1 "SW_and_D" H 7628 2809 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 3150 50  0001 C CNN
-F 3 "" H 7350 3150 50  0001 C CNN
-	1    7350 2950
+P 6800 3000
+F 0 "SW21" H 7078 2950 50  0000 L CNN
+F 1 "SW_and_D" H 7078 2859 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3000
 	1    0    0    -1  
 $EndComp
-Connection ~ 9700 3850
+Connection ~ 9150 3900
 Wire Wire Line
-	9700 3850 10750 3850
+	9150 3900 10200 3900
 $Comp
 L #library:SW_and_D SW4
 U 1 1 5E8689CD
-P 10550 3550
-F 0 "SW4" H 10828 3500 50  0000 L CNN
-F 1 "SW_and_D" H 10828 3409 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 3750 50  0001 C CNN
-F 3 "" H 10550 3750 50  0001 C CNN
-	1    10550 3550
+P 10000 3600
+F 0 "SW4" H 10278 3550 50  0000 L CNN
+F 1 "SW_and_D" H 10278 3459 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 3800 50  0001 C CNN
+F 3 "" H 10000 3800 50  0001 C CNN
+	1    10000 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 1750 10350 2350
+	9800 1800 9800 2400
 $Comp
 L #library:SW_and_D SW10
 U 1 1 5E868A3F
-P 9500 3550
-F 0 "SW10" H 9778 3500 50  0000 L CNN
-F 1 "SW_and_D" H 9778 3409 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 3750 50  0001 C CNN
-F 3 "" H 9500 3750 50  0001 C CNN
-	1    9500 3550
+P 8950 3600
+F 0 "SW10" H 9228 3550 50  0000 L CNN
+F 1 "SW_and_D" H 9228 3459 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 3800 50  0001 C CNN
+F 3 "" H 8950 3800 50  0001 C CNN
+	1    8950 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 10350 2350
+Connection ~ 9800 2400
 Wire Wire Line
-	10350 2350 10350 2950
+	9800 2400 9800 3000
 $Comp
 L #library:SW_and_D SW16
 U 1 1 5E868AAB
-P 8400 3550
-F 0 "SW16" H 8678 3500 50  0000 L CNN
-F 1 "SW_and_D" H 8678 3409 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 3750 50  0001 C CNN
-F 3 "" H 8400 3750 50  0001 C CNN
-	1    8400 3550
+P 7850 3600
+F 0 "SW16" H 8128 3550 50  0000 L CNN
+F 1 "SW_and_D" H 8128 3459 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+	1    7850 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 10350 2950
+Connection ~ 9800 3000
 Wire Wire Line
-	10350 2950 10350 3550
+	9800 3000 9800 3600
 $Comp
 L #library:SW_and_D SW22
 U 1 1 5E868B19
-P 7350 3550
-F 0 "SW22" H 7628 3500 50  0000 L CNN
-F 1 "SW_and_D" H 7628 3409 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 3750 50  0001 C CNN
-F 3 "" H 7350 3750 50  0001 C CNN
-	1    7350 3550
+P 6800 3600
+F 0 "SW22" H 7078 3550 50  0000 L CNN
+F 1 "SW_and_D" H 7078 3459 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 3800 50  0001 C CNN
+F 3 "" H 6800 3800 50  0001 C CNN
+	1    6800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW5
 U 1 1 5E868B83
-P 10550 4150
-F 0 "SW5" H 10828 4100 50  0000 L CNN
-F 1 "SW_and_D" H 10828 4009 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 4350 50  0001 C CNN
-F 3 "" H 10550 4350 50  0001 C CNN
-	1    10550 4150
+P 10000 4200
+F 0 "SW5" H 10278 4150 50  0000 L CNN
+F 1 "SW_and_D" H 10278 4059 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 4400 50  0001 C CNN
+F 3 "" H 10000 4400 50  0001 C CNN
+	1    10000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW11
 U 1 1 5E868C1F
-P 9500 4150
-F 0 "SW11" H 9778 4100 50  0000 L CNN
-F 1 "SW_and_D" H 9778 4009 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 4350 50  0001 C CNN
-F 3 "" H 9500 4350 50  0001 C CNN
-	1    9500 4150
+P 8950 4200
+F 0 "SW11" H 9228 4150 50  0000 L CNN
+F 1 "SW_and_D" H 9228 4059 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 4400 50  0001 C CNN
+F 3 "" H 8950 4400 50  0001 C CNN
+	1    8950 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW17
 U 1 1 5E868C97
-P 8400 4150
-F 0 "SW17" H 8678 4100 50  0000 L CNN
-F 1 "SW_and_D" H 8678 4009 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 4350 50  0001 C CNN
-F 3 "" H 8400 4350 50  0001 C CNN
-	1    8400 4150
+P 7850 4200
+F 0 "SW17" H 8128 4150 50  0000 L CNN
+F 1 "SW_and_D" H 8128 4059 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 4400 50  0001 C CNN
+F 3 "" H 7850 4400 50  0001 C CNN
+	1    7850 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW23
 U 1 1 5E868D13
-P 7350 4150
-F 0 "SW23" H 7628 4100 50  0000 L CNN
-F 1 "SW_and_D" H 7628 4009 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 4350 50  0001 C CNN
-F 3 "" H 7350 4350 50  0001 C CNN
-	1    7350 4150
+P 6800 4200
+F 0 "SW23" H 7078 4150 50  0000 L CNN
+F 1 "SW_and_D" H 7078 4059 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 4400 50  0001 C CNN
+F 3 "" H 6800 4400 50  0001 C CNN
+	1    6800 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW6
 U 1 1 5E868D87
-P 10550 4750
-F 0 "SW6" H 10828 4700 50  0000 L CNN
-F 1 "SW_and_D" H 10828 4609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 10550 4950 50  0001 C CNN
-F 3 "" H 10550 4950 50  0001 C CNN
-	1    10550 4750
+P 10000 4800
+F 0 "SW6" H 10278 4750 50  0000 L CNN
+F 1 "SW_and_D" H 10278 4659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 10000 5000 50  0001 C CNN
+F 3 "" H 10000 5000 50  0001 C CNN
+	1    10000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW12
 U 1 1 5E868E23
-P 9500 4750
-F 0 "SW12" H 9778 4700 50  0000 L CNN
-F 1 "SW_and_D" H 9778 4609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 9500 4950 50  0001 C CNN
-F 3 "" H 9500 4950 50  0001 C CNN
-	1    9500 4750
+P 8950 4800
+F 0 "SW12" H 9228 4750 50  0000 L CNN
+F 1 "SW_and_D" H 9228 4659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 8950 5000 50  0001 C CNN
+F 3 "" H 8950 5000 50  0001 C CNN
+	1    8950 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW18
 U 1 1 5E868F03
-P 8400 4750
-F 0 "SW18" H 8678 4700 50  0000 L CNN
-F 1 "SW_and_D" H 8678 4609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 4950 50  0001 C CNN
-F 3 "" H 8400 4950 50  0001 C CNN
-	1    8400 4750
+P 7850 4800
+F 0 "SW18" H 8128 4750 50  0000 L CNN
+F 1 "SW_and_D" H 8128 4659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 5000 50  0001 C CNN
+F 3 "" H 7850 5000 50  0001 C CNN
+	1    7850 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L #library:SW_and_D SW24
 U 1 1 5E868F81
-P 7350 4750
-F 0 "SW24" H 7628 4700 50  0000 L CNN
-F 1 "SW_and_D" H 7628 4609 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 7350 4950 50  0001 C CNN
-F 3 "" H 7350 4950 50  0001 C CNN
-	1    7350 4750
+P 6800 4800
+F 0 "SW24" H 7078 4750 50  0000 L CNN
+F 1 "SW_and_D" H 7078 4659 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 6800 5000 50  0001 C CNN
+F 3 "" H 6800 5000 50  0001 C CNN
+	1    6800 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 1150 3800 1700
+	3200 1450 3200 2000
 Wire Wire Line
-	3450 1700 3800 1700
+	2850 2000 3200 2000
 $Comp
 L #library:BLEMicroPro U2
 U 1 1 5E99DFF3
-P 2400 7100
-F 0 "U2" H 2400 8250 60  0000 C CNN
-F 1 "ProMicro/BLEMicroPro" H 2400 8100 60  0000 C CNN
-F 2 "#footprint:ArduinoProMicro-ZigZag-BLEMicroPro-Multi-rev2" H 2500 6050 60  0001 C CNN
-F 3 "" H 2500 6050 60  0000 C CNN
-	1    2400 7100
+P 4400 2450
+F 0 "U2" H 4400 3600 60  0000 C CNN
+F 1 "ProMicro/BLEMicroPro" H 4400 3450 60  0000 C CNN
+F 2 "#footprint:ArduinoProMicro-ZigZag-BLEMicroPro-Multi-rev2" H 4500 1400 60  0001 C CNN
+F 3 "" H 4500 1400 60  0000 C CNN
+	1    4400 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 6350 0    50   Input ~ 0
+Text GLabel 3700 1700 0    50   Input ~ 0
 led
-Text GLabel 1700 6450 0    50   Input ~ 0
+Text GLabel 3700 1800 0    50   Input ~ 0
 data
 $Comp
 L power:VCC #PWR09
 U 1 1 5E99E008
-P 3450 6100
-F 0 "#PWR09" H 3450 5950 50  0001 C CNN
-F 1 "VCC" H 3467 6273 50  0000 C CNN
-F 2 "" H 3450 6100 50  0001 C CNN
-F 3 "" H 3450 6100 50  0001 C CNN
-	1    3450 6100
+P 5450 1450
+F 0 "#PWR09" H 5450 1300 50  0001 C CNN
+F 1 "VCC" H 5467 1623 50  0000 C CNN
+F 2 "" H 5450 1450 50  0001 C CNN
+F 3 "" H 5450 1450 50  0001 C CNN
+	1    5450 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1700 6550 0    50   Input ~ 0
+Text GLabel 3700 1900 0    50   Input ~ 0
 GND
-Text GLabel 1700 6650 0    50   Input ~ 0
+Text GLabel 3700 2000 0    50   Input ~ 0
 GND
-Text GLabel 3100 6450 2    50   Input ~ 0
+Text GLabel 5100 1800 2    50   Input ~ 0
 GND
-NoConn ~ 3100 6250
-Text GLabel 1700 6250 0    50   Input ~ 0
+NoConn ~ 5100 1600
+Text GLabel 3700 1600 0    50   Input ~ 0
 GND
 Wire Wire Line
-	3450 6100 3450 6650
+	5450 1450 5450 2000
 Wire Wire Line
-	3100 6650 3450 6650
+	5100 2000 5450 2000
 $Comp
 L Connector_Generic:Conn_02x08_Top_Bottom J1
 U 1 1 5EAACB75
-P 2750 3250
-F 0 "J1" H 2800 3767 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 2800 3676 50  0000 C CNN
-F 2 "#footprint:IDC-Header_2x08_P2.54mm_rev2" H 2750 3250 50  0001 C CNN
-F 3 "~" H 2750 3250 50  0001 C CNN
-	1    2750 3250
+P 2200 3600
+F 0 "J1" H 2250 4117 50  0000 C CNN
+F 1 "Conn_02x08_Top_Bottom" H 2250 4026 50  0000 C CNN
+F 2 "#footprint:IDC-Header_2x08_P2.54mm_rev2" H 2200 3600 50  0001 C CNN
+F 3 "~" H 2200 3600 50  0001 C CNN
+	1    2200 3600
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3450 2500 2    50   Input ~ 0
+Text GLabel 2850 2800 2    50   Input ~ 0
 X8
-Text GLabel 3450 2400 2    50   Input ~ 0
+Text GLabel 2850 2700 2    50   Input ~ 0
 X7
-NoConn ~ 2450 3050
+NoConn ~ 1900 3400
 $Comp
 L Connector_Generic:Conn_02x08_Top_Bottom J2
 U 1 1 5EAB536A
-P 4550 6350
-F 0 "J2" H 4600 6867 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 4600 6776 50  0000 C CNN
-F 2 "#footprint:IDC-Header_2x08_P2.54mm_rev2" H 4550 6350 50  0001 C CNN
-F 3 "~" H 4550 6350 50  0001 C CNN
-	1    4550 6350
+P 4450 3600
+F 0 "J2" H 4500 4117 50  0000 C CNN
+F 1 "Conn_02x08_Top_Bottom" H 4500 4026 50  0000 C CNN
+F 2 "#footprint:IDC-Header_2x08_P2.54mm_rev2" H 4450 3600 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+	1    4450 3600
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 4250 6150
+NoConn ~ 4150 3400
 $Comp
 L #library:MJ-4PP-9 J4
 U 1 1 5EAF08A5
-P 1050 5350
-F 0 "J4" H 1080 5768 50  0000 C CNN
-F 1 "MJ-4PP-9" H 1080 5677 50  0000 C CNN
-F 2 "#footprint:MJ-4PP-9" H 1325 5525 50  0001 C CNN
-F 3 "" H 1325 5525 50  0001 C CNN
-	1    1050 5350
+P 4250 4650
+F 0 "J4" H 4280 5068 50  0000 C CNN
+F 1 "MJ-4PP-9" H 4280 4977 50  0000 C CNN
+F 2 "#footprint:MJ-4PP-9" H 4525 4825 50  0001 C CNN
+F 3 "" H 4525 4825 50  0001 C CNN
+	1    4250 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 5450 2    50   Input ~ 0
+Text GLabel 4450 4750 2    50   Input ~ 0
 data
 $Comp
 L power:GND #PWR0101
 U 1 1 5EAF08AC
-P 1550 5500
-F 0 "#PWR0101" H 1550 5250 50  0001 C CNN
-F 1 "GND" H 1550 5350 50  0000 C CNN
-F 2 "" H 1550 5500 50  0001 C CNN
-F 3 "" H 1550 5500 50  0001 C CNN
-	1    1550 5500
+P 4750 4800
+F 0 "#PWR0101" H 4750 4550 50  0001 C CNN
+F 1 "GND" H 4750 4650 50  0000 C CNN
+F 2 "" H 4750 4800 50  0001 C CNN
+F 3 "" H 4750 4800 50  0001 C CNN
+	1    4750 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 5EAF08B2
-P 1550 5100
-F 0 "#PWR0102" H 1550 4950 50  0001 C CNN
-F 1 "VCC" H 1567 5273 50  0000 C CNN
-F 2 "" H 1550 5100 50  0001 C CNN
-F 3 "" H 1550 5100 50  0001 C CNN
-	1    1550 5100
+P 4750 4400
+F 0 "#PWR0102" H 4750 4250 50  0001 C CNN
+F 1 "VCC" H 4767 4573 50  0000 C CNN
+F 2 "" H 4750 4400 50  0001 C CNN
+F 3 "" H 4750 4400 50  0001 C CNN
+	1    4750 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 5350 1550 5350
+	4450 4650 4750 4650
 Wire Wire Line
-	1550 5350 1550 5500
+	4750 4650 4750 4800
 Wire Wire Line
-	1250 5250 1550 5250
+	4450 4550 4750 4550
 Wire Wire Line
-	1550 5250 1550 5100
-NoConn ~ 1250 5150
+	4750 4550 4750 4400
+NoConn ~ 4450 4450
 $Comp
 L Connector_Generic:Conn_01x03 J7
 U 1 1 5EB6B802
-P 2050 5350
-F 0 "J7" H 2130 5392 50  0000 L CNN
-F 1 "Conn_01x03" H 2130 5301 50  0000 L CNN
-F 2 "#footprint:StripLED_rev2" H 2050 5350 50  0001 C CNN
-F 3 "~" H 2050 5350 50  0001 C CNN
-	1    2050 5350
+P 2000 6550
+F 0 "J7" H 2080 6592 50  0000 L CNN
+F 1 "Conn_01x03" H 2080 6501 50  0000 L CNN
+F 2 "#footprint:StripLED_rev2" H 2000 6550 50  0001 C CNN
+F 3 "~" H 2000 6550 50  0001 C CNN
+	1    2000 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0105
 U 1 1 5EB6B808
-P 2450 5100
-F 0 "#PWR0105" H 2450 4950 50  0001 C CNN
-F 1 "VCC" H 2467 5273 50  0000 C CNN
-F 2 "" H 2450 5100 50  0001 C CNN
-F 3 "" H 2450 5100 50  0001 C CNN
-	1    2450 5100
+P 2400 6300
+F 0 "#PWR0105" H 2400 6150 50  0001 C CNN
+F 1 "VCC" H 2417 6473 50  0000 C CNN
+F 2 "" H 2400 6300 50  0001 C CNN
+F 3 "" H 2400 6300 50  0001 C CNN
+	1    2400 6300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2250 5350 2    50   Input ~ 0
+Text GLabel 2200 6550 2    50   Input ~ 0
 led
 $Comp
 L power:GND #PWR0106
 U 1 1 5EB6B80F
-P 2450 5500
-F 0 "#PWR0106" H 2450 5250 50  0001 C CNN
-F 1 "GND" H 2450 5350 50  0000 C CNN
-F 2 "" H 2450 5500 50  0001 C CNN
-F 3 "" H 2450 5500 50  0001 C CNN
-	1    2450 5500
+P 2400 6700
+F 0 "#PWR0106" H 2400 6450 50  0001 C CNN
+F 1 "GND" H 2400 6550 50  0000 C CNN
+F 2 "" H 2400 6700 50  0001 C CNN
+F 3 "" H 2400 6700 50  0001 C CNN
+	1    2400 6700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 5500 2450 5450
+	2400 6700 2400 6650
 Wire Wire Line
-	2450 5450 2250 5450
+	2400 6650 2200 6650
 Wire Wire Line
-	2250 5250 2450 5250
+	2200 6450 2400 6450
 Wire Wire Line
-	2450 5250 2450 5100
+	2400 6450 2400 6300
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5EB6B819
-P 3200 5350
-F 0 "J8" H 3280 5392 50  0000 L CNN
-F 1 "Conn_01x03" H 3280 5301 50  0000 L CNN
-F 2 "#footprint:StripLED_rev2" H 3200 5350 50  0001 C CNN
-F 3 "~" H 3200 5350 50  0001 C CNN
-	1    3200 5350
+P 4200 6550
+F 0 "J8" H 4280 6592 50  0000 L CNN
+F 1 "Conn_01x03" H 4280 6501 50  0000 L CNN
+F 2 "#footprint:StripLED_rev2" H 4200 6550 50  0001 C CNN
+F 3 "~" H 4200 6550 50  0001 C CNN
+	1    4200 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0107
 U 1 1 5EB6B81F
-P 3600 5100
-F 0 "#PWR0107" H 3600 4950 50  0001 C CNN
-F 1 "VCC" H 3617 5273 50  0000 C CNN
-F 2 "" H 3600 5100 50  0001 C CNN
-F 3 "" H 3600 5100 50  0001 C CNN
-	1    3600 5100
+P 4600 6300
+F 0 "#PWR0107" H 4600 6150 50  0001 C CNN
+F 1 "VCC" H 4617 6473 50  0000 C CNN
+F 2 "" H 4600 6300 50  0001 C CNN
+F 3 "" H 4600 6300 50  0001 C CNN
+	1    4600 6300
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3400 5350 2    50   Input ~ 0
+Text GLabel 4400 6550 2    50   Input ~ 0
 led
 $Comp
 L power:GND #PWR0108
 U 1 1 5EB6B826
-P 3600 5500
-F 0 "#PWR0108" H 3600 5250 50  0001 C CNN
-F 1 "GND" H 3600 5350 50  0000 C CNN
-F 2 "" H 3600 5500 50  0001 C CNN
-F 3 "" H 3600 5500 50  0001 C CNN
-	1    3600 5500
+P 4600 6700
+F 0 "#PWR0108" H 4600 6450 50  0001 C CNN
+F 1 "GND" H 4600 6550 50  0000 C CNN
+F 2 "" H 4600 6700 50  0001 C CNN
+F 3 "" H 4600 6700 50  0001 C CNN
+	1    4600 6700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 5500 3600 5450
+	4600 6700 4600 6650
 Wire Wire Line
-	3600 5450 3400 5450
+	4600 6650 4400 6650
 Wire Wire Line
-	3400 5250 3600 5250
+	4400 6450 4600 6450
 Wire Wire Line
-	3600 5250 3600 5100
+	4600 6450 4600 6300
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 5EB750EA
-P 4200 5350
-F 0 "J9" H 4120 5667 50  0000 C CNN
-F 1 "Conn_01x04" H 4120 5576 50  0000 C CNN
-F 2 "#footprint:OLED_rev2" H 4200 5350 50  0001 C CNN
-F 3 "~" H 4200 5350 50  0001 C CNN
-	1    4200 5350
+P 2000 5550
+F 0 "J9" H 1920 5867 50  0000 C CNN
+F 1 "Conn_01x04" H 1920 5776 50  0000 C CNN
+F 2 "#footprint:OLED_rev2" H 2000 5550 50  0001 C CNN
+F 3 "~" H 2000 5550 50  0001 C CNN
+	1    2000 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 5EB7B9CC
-P 4650 5550
-F 0 "#PWR0111" H 4650 5300 50  0001 C CNN
-F 1 "GND" H 4650 5400 50  0000 C CNN
-F 2 "" H 4650 5550 50  0001 C CNN
-F 3 "" H 4650 5550 50  0001 C CNN
-	1    4650 5550
+P 2450 5750
+F 0 "#PWR0111" H 2450 5500 50  0001 C CNN
+F 1 "GND" H 2450 5600 50  0000 C CNN
+F 2 "" H 2450 5750 50  0001 C CNN
+F 3 "" H 2450 5750 50  0001 C CNN
+	1    2450 5750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0112
 U 1 1 5EB7BA23
-P 4750 5150
-F 0 "#PWR0112" H 4750 5000 50  0001 C CNN
-F 1 "VCC" H 4767 5323 50  0000 C CNN
-F 2 "" H 4750 5150 50  0001 C CNN
-F 3 "" H 4750 5150 50  0001 C CNN
-	1    4750 5150
+P 2550 5350
+F 0 "#PWR0112" H 2550 5200 50  0001 C CNN
+F 1 "VCC" H 2567 5523 50  0000 C CNN
+F 2 "" H 2550 5350 50  0001 C CNN
+F 3 "" H 2550 5350 50  0001 C CNN
+	1    2550 5350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 5250 4650 5250
+	2200 5450 2450 5450
 Wire Wire Line
-	4650 5250 4650 5550
+	2450 5450 2450 5750
 Wire Wire Line
-	4400 5350 4750 5350
+	2200 5550 2550 5550
 Wire Wire Line
-	4750 5350 4750 5150
+	2550 5550 2550 5350
 $Comp
 L #library:BLEMicroPro U1
 U 1 1 5CE18F26
-P 2750 2150
-F 0 "U1" H 2750 3300 60  0000 C CNN
-F 1 "ProMicro/BLEMicroPro" H 2750 3150 60  0000 C CNN
-F 2 "#footprint:ArduinoProMicro-ZigZag-BLEMicroPro-Multi-rev2" H 2850 1100 60  0001 C CNN
-F 3 "" H 2850 1100 60  0000 C CNN
-	1    2750 2150
+P 2150 2450
+F 0 "U1" H 2150 3600 60  0000 C CNN
+F 1 "ProMicro/BLEMicroPro" H 2150 3450 60  0000 C CNN
+F 2 "#footprint:ArduinoProMicro-ZigZag-BLEMicroPro-Multi-rev2" H 2250 1400 60  0001 C CNN
+F 3 "" H 2250 1400 60  0000 C CNN
+	1    2150 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 1800 0    50   Input ~ 0
+Text GLabel 1450 2100 0    50   Input ~ 0
 SDA
-Text GLabel 2050 1900 0    50   Input ~ 0
+Text GLabel 1450 2200 0    50   Input ~ 0
 SCL
-Text GLabel 4400 5550 2    50   Input ~ 0
+Text GLabel 2200 5750 2    50   Input ~ 0
 SDA
-Text GLabel 4400 5450 2    50   Input ~ 0
+Text GLabel 2200 5650 2    50   Input ~ 0
 SCL
 $Comp
 L Connector_Generic:Conn_01x04 J10
 U 1 1 5EB81B86
-P 5100 5350
-F 0 "J10" H 5020 5667 50  0000 C CNN
-F 1 "Conn_01x04" H 5020 5576 50  0000 C CNN
-F 2 "#footprint:OLED_rev2" H 5100 5350 50  0001 C CNN
-F 3 "~" H 5100 5350 50  0001 C CNN
-	1    5100 5350
+P 4200 5550
+F 0 "J10" H 4120 5867 50  0000 C CNN
+F 1 "Conn_01x04" H 4120 5776 50  0000 C CNN
+F 2 "#footprint:OLED_rev2" H 4200 5550 50  0001 C CNN
+F 3 "~" H 4200 5550 50  0001 C CNN
+	1    4200 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 5EB81B8C
-P 5550 5550
-F 0 "#PWR0113" H 5550 5300 50  0001 C CNN
-F 1 "GND" H 5550 5400 50  0000 C CNN
-F 2 "" H 5550 5550 50  0001 C CNN
-F 3 "" H 5550 5550 50  0001 C CNN
-	1    5550 5550
+P 4650 5750
+F 0 "#PWR0113" H 4650 5500 50  0001 C CNN
+F 1 "GND" H 4650 5600 50  0000 C CNN
+F 2 "" H 4650 5750 50  0001 C CNN
+F 3 "" H 4650 5750 50  0001 C CNN
+	1    4650 5750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0114
 U 1 1 5EB81B92
-P 5650 5150
-F 0 "#PWR0114" H 5650 5000 50  0001 C CNN
-F 1 "VCC" H 5667 5323 50  0000 C CNN
-F 2 "" H 5650 5150 50  0001 C CNN
-F 3 "" H 5650 5150 50  0001 C CNN
-	1    5650 5150
+P 4750 5350
+F 0 "#PWR0114" H 4750 5200 50  0001 C CNN
+F 1 "VCC" H 4767 5523 50  0000 C CNN
+F 2 "" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 5250 5550 5250
+	4400 5450 4650 5450
 Wire Wire Line
-	5550 5250 5550 5550
+	4650 5450 4650 5750
 Wire Wire Line
-	5300 5350 5650 5350
+	4400 5550 4750 5550
 Wire Wire Line
-	5650 5350 5650 5150
-Text GLabel 5300 5550 2    50   Input ~ 0
+	4750 5550 4750 5350
+Text GLabel 4400 5750 2    50   Input ~ 0
 SDA
-Text GLabel 5300 5450 2    50   Input ~ 0
+Text GLabel 4400 5650 2    50   Input ~ 0
 SCL
-NoConn ~ 3450 1400
-NoConn ~ 3100 6350
-Text GLabel 1700 6750 0    50   Input ~ 0
+NoConn ~ 2850 1700
+NoConn ~ 5100 1700
+Text GLabel 3700 2100 0    50   Input ~ 0
 SDA
-Text GLabel 1700 6850 0    50   Input ~ 0
+Text GLabel 3700 2200 0    50   Input ~ 0
 SCL
-NoConn ~ 4250 6050
-NoConn ~ 2450 2950
-NoConn ~ 3450 1600
-NoConn ~ 3100 6550
-Text GLabel 2950 2950 2    50   Input ~ 0
+NoConn ~ 4150 3300
+NoConn ~ 1900 3300
+NoConn ~ 2850 1900
+NoConn ~ 5100 1900
+Text GLabel 2400 3300 2    50   Input ~ 0
 X1
-Text GLabel 2950 3050 2    50   Input ~ 0
+Text GLabel 2400 3400 2    50   Input ~ 0
 X2
-Text GLabel 2950 3150 2    50   Input ~ 0
+Text GLabel 2400 3500 2    50   Input ~ 0
 X3
-Text GLabel 2950 3250 2    50   Input ~ 0
+Text GLabel 2400 3600 2    50   Input ~ 0
 X4
-Text GLabel 2950 3350 2    50   Input ~ 0
+Text GLabel 2400 3700 2    50   Input ~ 0
 X5
-Text GLabel 2950 3450 2    50   Input ~ 0
+Text GLabel 2400 3800 2    50   Input ~ 0
 X6
-Text GLabel 2950 3650 2    50   Input ~ 0
+Text GLabel 2400 4000 2    50   Input ~ 0
 X8
-Text GLabel 2950 3550 2    50   Input ~ 0
+Text GLabel 2400 3900 2    50   Input ~ 0
 X7
-Text GLabel 2450 3150 0    50   Input ~ 0
+Text GLabel 1900 3500 0    50   Input ~ 0
 Y1
-Text GLabel 2450 3250 0    50   Input ~ 0
+Text GLabel 1900 3600 0    50   Input ~ 0
 Y2
-Text GLabel 2450 3350 0    50   Input ~ 0
+Text GLabel 1900 3700 0    50   Input ~ 0
 Y3
-Text GLabel 2450 3450 0    50   Input ~ 0
+Text GLabel 1900 3800 0    50   Input ~ 0
 Y4
-Text GLabel 2450 3650 0    50   Input ~ 0
+Text GLabel 1900 4000 0    50   Input ~ 0
 Y6
-Text GLabel 2450 3550 0    50   Input ~ 0
+Text GLabel 1900 3900 0    50   Input ~ 0
 Y5
-Text GLabel 1700 6950 0    50   Input ~ 0
+Text GLabel 3700 2300 0    50   Input ~ 0
 Y1
-Text GLabel 1700 7050 0    50   Input ~ 0
+Text GLabel 3700 2400 0    50   Input ~ 0
 Y2
-Text GLabel 1700 7150 0    50   Input ~ 0
+Text GLabel 3700 2500 0    50   Input ~ 0
 Y3
-Text GLabel 1700 7250 0    50   Input ~ 0
+Text GLabel 3700 2600 0    50   Input ~ 0
 Y4
-Text GLabel 1700 7450 0    50   Input ~ 0
+Text GLabel 3700 2800 0    50   Input ~ 0
 Y6
-Text GLabel 1700 7350 0    50   Input ~ 0
+Text GLabel 3700 2700 0    50   Input ~ 0
 Y5
-Text GLabel 2950 2950 2    50   Input ~ 0
+Text GLabel 2400 3300 2    50   Input ~ 0
 X1
-Text GLabel 2950 3050 2    50   Input ~ 0
+Text GLabel 2400 3400 2    50   Input ~ 0
 X2
-Text GLabel 2950 3150 2    50   Input ~ 0
+Text GLabel 2400 3500 2    50   Input ~ 0
 X3
-Text GLabel 2950 3250 2    50   Input ~ 0
+Text GLabel 2400 3600 2    50   Input ~ 0
 X4
-Text GLabel 2950 3350 2    50   Input ~ 0
+Text GLabel 2400 3700 2    50   Input ~ 0
 X5
-Text GLabel 2950 3450 2    50   Input ~ 0
+Text GLabel 2400 3800 2    50   Input ~ 0
 X6
-Text GLabel 2950 3650 2    50   Input ~ 0
+Text GLabel 2400 4000 2    50   Input ~ 0
 X8
-Text GLabel 2950 3550 2    50   Input ~ 0
+Text GLabel 2400 3900 2    50   Input ~ 0
 X7
-Text GLabel 2950 2950 2    50   Input ~ 0
+Text GLabel 2400 3300 2    50   Input ~ 0
 X1
-Text GLabel 2950 3050 2    50   Input ~ 0
+Text GLabel 2400 3400 2    50   Input ~ 0
 X2
-Text GLabel 2950 3150 2    50   Input ~ 0
+Text GLabel 2400 3500 2    50   Input ~ 0
 X3
-Text GLabel 2950 3250 2    50   Input ~ 0
+Text GLabel 2400 3600 2    50   Input ~ 0
 X4
-Text GLabel 2950 3350 2    50   Input ~ 0
+Text GLabel 2400 3700 2    50   Input ~ 0
 X5
-Text GLabel 2950 3450 2    50   Input ~ 0
+Text GLabel 2400 3800 2    50   Input ~ 0
 X6
-Text GLabel 2950 3650 2    50   Input ~ 0
+Text GLabel 2400 4000 2    50   Input ~ 0
 X8
-Text GLabel 2950 3550 2    50   Input ~ 0
+Text GLabel 2400 3900 2    50   Input ~ 0
 X7
-Text GLabel 2950 2950 2    50   Input ~ 0
+Text GLabel 2400 3300 2    50   Input ~ 0
 X1
-Text GLabel 2950 3050 2    50   Input ~ 0
+Text GLabel 2400 3400 2    50   Input ~ 0
 X2
-Text GLabel 2950 3150 2    50   Input ~ 0
+Text GLabel 2400 3500 2    50   Input ~ 0
 X3
-Text GLabel 2950 3250 2    50   Input ~ 0
+Text GLabel 2400 3600 2    50   Input ~ 0
 X4
-Text GLabel 2950 3350 2    50   Input ~ 0
+Text GLabel 2400 3700 2    50   Input ~ 0
 X5
-Text GLabel 2950 3450 2    50   Input ~ 0
+Text GLabel 2400 3800 2    50   Input ~ 0
 X6
-Text GLabel 2950 3650 2    50   Input ~ 0
+Text GLabel 2400 4000 2    50   Input ~ 0
 X8
-Text GLabel 2950 3550 2    50   Input ~ 0
+Text GLabel 2400 3900 2    50   Input ~ 0
 X7
-Text GLabel 3100 6750 2    50   Input ~ 0
+Text GLabel 5100 2100 2    50   Input ~ 0
 X1
-Text GLabel 3100 6850 2    50   Input ~ 0
+Text GLabel 5100 2200 2    50   Input ~ 0
 X2
-Text GLabel 3100 6950 2    50   Input ~ 0
+Text GLabel 5100 2300 2    50   Input ~ 0
 X3
-Text GLabel 3100 7050 2    50   Input ~ 0
+Text GLabel 5100 2400 2    50   Input ~ 0
 X4
-Text GLabel 3100 7150 2    50   Input ~ 0
+Text GLabel 5100 2500 2    50   Input ~ 0
 X5
-Text GLabel 3100 7250 2    50   Input ~ 0
+Text GLabel 5100 2600 2    50   Input ~ 0
 X6
-Text GLabel 3100 7450 2    50   Input ~ 0
+Text GLabel 5100 2800 2    50   Input ~ 0
 X8
-Text GLabel 3100 7350 2    50   Input ~ 0
+Text GLabel 5100 2700 2    50   Input ~ 0
 X7
-Text GLabel 3100 6750 2    50   Input ~ 0
+Text GLabel 5100 2100 2    50   Input ~ 0
 X1
-Text GLabel 3100 6850 2    50   Input ~ 0
+Text GLabel 5100 2200 2    50   Input ~ 0
 X2
-Text GLabel 3100 6950 2    50   Input ~ 0
+Text GLabel 5100 2300 2    50   Input ~ 0
 X3
-Text GLabel 3100 7050 2    50   Input ~ 0
+Text GLabel 5100 2400 2    50   Input ~ 0
 X4
-Text GLabel 3100 7150 2    50   Input ~ 0
+Text GLabel 5100 2500 2    50   Input ~ 0
 X5
-Text GLabel 3100 7250 2    50   Input ~ 0
+Text GLabel 5100 2600 2    50   Input ~ 0
 X6
-Text GLabel 3100 7450 2    50   Input ~ 0
+Text GLabel 5100 2800 2    50   Input ~ 0
 X8
-Text GLabel 3100 7350 2    50   Input ~ 0
+Text GLabel 5100 2700 2    50   Input ~ 0
 X7
-Text GLabel 3100 6750 2    50   Input ~ 0
+Text GLabel 5100 2100 2    50   Input ~ 0
 X1
-Text GLabel 3100 6850 2    50   Input ~ 0
+Text GLabel 5100 2200 2    50   Input ~ 0
 X2
-Text GLabel 3100 6950 2    50   Input ~ 0
+Text GLabel 5100 2300 2    50   Input ~ 0
 X3
-Text GLabel 3100 7050 2    50   Input ~ 0
+Text GLabel 5100 2400 2    50   Input ~ 0
 X4
-Text GLabel 3100 7150 2    50   Input ~ 0
+Text GLabel 5100 2500 2    50   Input ~ 0
 X5
-Text GLabel 3100 7250 2    50   Input ~ 0
+Text GLabel 5100 2600 2    50   Input ~ 0
 X6
-Text GLabel 3100 7450 2    50   Input ~ 0
+Text GLabel 5100 2800 2    50   Input ~ 0
 X8
-Text GLabel 3100 7350 2    50   Input ~ 0
+Text GLabel 5100 2700 2    50   Input ~ 0
 X7
-Text GLabel 3100 6750 2    50   Input ~ 0
+Text GLabel 5100 2100 2    50   Input ~ 0
 X1
-Text GLabel 3100 6850 2    50   Input ~ 0
+Text GLabel 5100 2200 2    50   Input ~ 0
 X2
-Text GLabel 3100 6950 2    50   Input ~ 0
+Text GLabel 5100 2300 2    50   Input ~ 0
 X3
-Text GLabel 3100 7050 2    50   Input ~ 0
+Text GLabel 5100 2400 2    50   Input ~ 0
 X4
-Text GLabel 3100 7150 2    50   Input ~ 0
+Text GLabel 5100 2500 2    50   Input ~ 0
 X5
-Text GLabel 3100 7250 2    50   Input ~ 0
+Text GLabel 5100 2600 2    50   Input ~ 0
 X6
-Text GLabel 3100 7450 2    50   Input ~ 0
+Text GLabel 5100 2800 2    50   Input ~ 0
 X8
-Text GLabel 3100 7350 2    50   Input ~ 0
+Text GLabel 5100 2700 2    50   Input ~ 0
 X7
-Text GLabel 4750 6050 2    50   Input ~ 0
+Text GLabel 4650 3300 2    50   Input ~ 0
 X1
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4650 3400 2    50   Input ~ 0
 X2
-Text GLabel 4750 6250 2    50   Input ~ 0
+Text GLabel 4650 3500 2    50   Input ~ 0
 X3
-Text GLabel 4750 6350 2    50   Input ~ 0
+Text GLabel 4650 3600 2    50   Input ~ 0
 X4
-Text GLabel 4750 6450 2    50   Input ~ 0
+Text GLabel 4650 3700 2    50   Input ~ 0
 X5
-Text GLabel 4750 6550 2    50   Input ~ 0
+Text GLabel 4650 3800 2    50   Input ~ 0
 X6
-Text GLabel 4750 6750 2    50   Input ~ 0
+Text GLabel 4650 4000 2    50   Input ~ 0
 X8
-Text GLabel 4750 6650 2    50   Input ~ 0
+Text GLabel 4650 3900 2    50   Input ~ 0
 X7
-Text GLabel 4750 6050 2    50   Input ~ 0
+Text GLabel 4650 3300 2    50   Input ~ 0
 X1
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4650 3400 2    50   Input ~ 0
 X2
-Text GLabel 4750 6250 2    50   Input ~ 0
+Text GLabel 4650 3500 2    50   Input ~ 0
 X3
-Text GLabel 4750 6350 2    50   Input ~ 0
+Text GLabel 4650 3600 2    50   Input ~ 0
 X4
-Text GLabel 4750 6450 2    50   Input ~ 0
+Text GLabel 4650 3700 2    50   Input ~ 0
 X5
-Text GLabel 4750 6550 2    50   Input ~ 0
+Text GLabel 4650 3800 2    50   Input ~ 0
 X6
-Text GLabel 4750 6750 2    50   Input ~ 0
+Text GLabel 4650 4000 2    50   Input ~ 0
 X8
-Text GLabel 4750 6650 2    50   Input ~ 0
+Text GLabel 4650 3900 2    50   Input ~ 0
 X7
-Text GLabel 4750 6050 2    50   Input ~ 0
+Text GLabel 4650 3300 2    50   Input ~ 0
 X1
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4650 3400 2    50   Input ~ 0
 X2
-Text GLabel 4750 6250 2    50   Input ~ 0
+Text GLabel 4650 3500 2    50   Input ~ 0
 X3
-Text GLabel 4750 6350 2    50   Input ~ 0
+Text GLabel 4650 3600 2    50   Input ~ 0
 X4
-Text GLabel 4750 6450 2    50   Input ~ 0
+Text GLabel 4650 3700 2    50   Input ~ 0
 X5
-Text GLabel 4750 6550 2    50   Input ~ 0
+Text GLabel 4650 3800 2    50   Input ~ 0
 X6
-Text GLabel 4750 6750 2    50   Input ~ 0
+Text GLabel 4650 4000 2    50   Input ~ 0
 X8
-Text GLabel 4750 6650 2    50   Input ~ 0
+Text GLabel 4650 3900 2    50   Input ~ 0
 X7
-Text GLabel 4750 6050 2    50   Input ~ 0
+Text GLabel 4650 3300 2    50   Input ~ 0
 X1
-Text GLabel 4750 6150 2    50   Input ~ 0
+Text GLabel 4650 3400 2    50   Input ~ 0
 X2
-Text GLabel 4750 6250 2    50   Input ~ 0
+Text GLabel 4650 3500 2    50   Input ~ 0
 X3
-Text GLabel 4750 6350 2    50   Input ~ 0
+Text GLabel 4650 3600 2    50   Input ~ 0
 X4
-Text GLabel 4750 6450 2    50   Input ~ 0
+Text GLabel 4650 3700 2    50   Input ~ 0
 X5
-Text GLabel 4750 6550 2    50   Input ~ 0
+Text GLabel 4650 3800 2    50   Input ~ 0
 X6
-Text GLabel 4750 6750 2    50   Input ~ 0
+Text GLabel 4650 4000 2    50   Input ~ 0
 X8
-Text GLabel 4750 6650 2    50   Input ~ 0
+Text GLabel 4650 3900 2    50   Input ~ 0
 X7
-Text GLabel 1700 6950 0    50   Input ~ 0
+Text GLabel 3700 2300 0    50   Input ~ 0
 Y1
-Text GLabel 1700 7050 0    50   Input ~ 0
+Text GLabel 3700 2400 0    50   Input ~ 0
 Y2
-Text GLabel 1700 7150 0    50   Input ~ 0
+Text GLabel 3700 2500 0    50   Input ~ 0
 Y3
-Text GLabel 1700 7250 0    50   Input ~ 0
+Text GLabel 3700 2600 0    50   Input ~ 0
 Y4
-Text GLabel 1700 7450 0    50   Input ~ 0
+Text GLabel 3700 2800 0    50   Input ~ 0
 Y6
-Text GLabel 1700 7350 0    50   Input ~ 0
+Text GLabel 3700 2700 0    50   Input ~ 0
 Y5
-Text GLabel 1700 6950 0    50   Input ~ 0
+Text GLabel 3700 2300 0    50   Input ~ 0
 Y1
-Text GLabel 1700 7050 0    50   Input ~ 0
+Text GLabel 3700 2400 0    50   Input ~ 0
 Y2
-Text GLabel 1700 7150 0    50   Input ~ 0
+Text GLabel 3700 2500 0    50   Input ~ 0
 Y3
-Text GLabel 1700 7250 0    50   Input ~ 0
+Text GLabel 3700 2600 0    50   Input ~ 0
 Y4
-Text GLabel 1700 7450 0    50   Input ~ 0
+Text GLabel 3700 2800 0    50   Input ~ 0
 Y6
-Text GLabel 1700 7350 0    50   Input ~ 0
+Text GLabel 3700 2700 0    50   Input ~ 0
 Y5
-Text GLabel 1700 6950 0    50   Input ~ 0
+Text GLabel 3700 2300 0    50   Input ~ 0
 Y1
-Text GLabel 1700 7050 0    50   Input ~ 0
+Text GLabel 3700 2400 0    50   Input ~ 0
 Y2
-Text GLabel 1700 7150 0    50   Input ~ 0
+Text GLabel 3700 2500 0    50   Input ~ 0
 Y3
-Text GLabel 1700 7250 0    50   Input ~ 0
+Text GLabel 3700 2600 0    50   Input ~ 0
 Y4
-Text GLabel 1700 7450 0    50   Input ~ 0
+Text GLabel 3700 2800 0    50   Input ~ 0
 Y6
-Text GLabel 1700 7350 0    50   Input ~ 0
+Text GLabel 3700 2700 0    50   Input ~ 0
 Y5
-Text GLabel 4250 6250 0    50   Input ~ 0
+Text GLabel 4150 3500 0    50   Input ~ 0
 Y1
-Text GLabel 4250 6350 0    50   Input ~ 0
+Text GLabel 4150 3600 0    50   Input ~ 0
 Y2
-Text GLabel 4250 6450 0    50   Input ~ 0
+Text GLabel 4150 3700 0    50   Input ~ 0
 Y3
-Text GLabel 4250 6550 0    50   Input ~ 0
+Text GLabel 4150 3800 0    50   Input ~ 0
 Y4
-Text GLabel 4250 6750 0    50   Input ~ 0
+Text GLabel 4150 4000 0    50   Input ~ 0
 Y6
-Text GLabel 4250 6650 0    50   Input ~ 0
+Text GLabel 4150 3900 0    50   Input ~ 0
 Y5
-Text GLabel 4250 6250 0    50   Input ~ 0
+Text GLabel 4150 3500 0    50   Input ~ 0
 Y1
-Text GLabel 4250 6350 0    50   Input ~ 0
+Text GLabel 4150 3600 0    50   Input ~ 0
 Y2
-Text GLabel 4250 6450 0    50   Input ~ 0
+Text GLabel 4150 3700 0    50   Input ~ 0
 Y3
-Text GLabel 4250 6550 0    50   Input ~ 0
+Text GLabel 4150 3800 0    50   Input ~ 0
 Y4
-Text GLabel 4250 6750 0    50   Input ~ 0
+Text GLabel 4150 4000 0    50   Input ~ 0
 Y6
-Text GLabel 4250 6650 0    50   Input ~ 0
+Text GLabel 4150 3900 0    50   Input ~ 0
 Y5
-Text GLabel 4250 6250 0    50   Input ~ 0
+Text GLabel 4150 3500 0    50   Input ~ 0
 Y1
-Text GLabel 4250 6350 0    50   Input ~ 0
+Text GLabel 4150 3600 0    50   Input ~ 0
 Y2
-Text GLabel 4250 6450 0    50   Input ~ 0
+Text GLabel 4150 3700 0    50   Input ~ 0
 Y3
-Text GLabel 4250 6550 0    50   Input ~ 0
+Text GLabel 4150 3800 0    50   Input ~ 0
 Y4
-Text GLabel 4250 6750 0    50   Input ~ 0
+Text GLabel 4150 4000 0    50   Input ~ 0
 Y6
-Text GLabel 4250 6650 0    50   Input ~ 0
+Text GLabel 4150 3900 0    50   Input ~ 0
 Y5
-Text GLabel 4250 6250 0    50   Input ~ 0
+Text GLabel 4150 3500 0    50   Input ~ 0
 Y1
-Text GLabel 4250 6350 0    50   Input ~ 0
+Text GLabel 4150 3600 0    50   Input ~ 0
 Y2
-Text GLabel 4250 6450 0    50   Input ~ 0
+Text GLabel 4150 3700 0    50   Input ~ 0
 Y3
-Text GLabel 4250 6550 0    50   Input ~ 0
+Text GLabel 4150 3800 0    50   Input ~ 0
 Y4
-Text GLabel 4250 6750 0    50   Input ~ 0
+Text GLabel 4150 4000 0    50   Input ~ 0
 Y6
-Text GLabel 4250 6650 0    50   Input ~ 0
+Text GLabel 4150 3900 0    50   Input ~ 0
 Y5
-Text GLabel 6750 3850 0    39   Input ~ 0
+Text GLabel 6200 3900 0    39   Input ~ 0
 Y4
-Connection ~ 7150 3550
-Connection ~ 8200 3550
-Connection ~ 9300 3550
-Connection ~ 10350 3550
-Text GLabel 6750 4450 0    39   Input ~ 0
+Connection ~ 6600 3600
+Connection ~ 7650 3600
+Connection ~ 8750 3600
+Connection ~ 9800 3600
+Text GLabel 6200 4500 0    39   Input ~ 0
 Y5
-Text GLabel 6750 5050 0    39   Input ~ 0
+Text GLabel 6200 5100 0    39   Input ~ 0
 Y6
 Wire Wire Line
-	7150 3550 7150 4150
+	6600 3600 6600 4200
 Wire Wire Line
-	8200 3550 8200 4150
+	7650 3600 7650 4200
 Wire Wire Line
-	8600 3250 9700 3250
+	8050 3300 9150 3300
 Wire Wire Line
-	7550 3250 8600 3250
-Connection ~ 8600 3250
+	7000 3300 8050 3300
+Connection ~ 8050 3300
 Wire Wire Line
-	8200 2950 8200 3550
+	7650 3000 7650 3600
 Wire Wire Line
-	8200 2350 8200 2950
-Connection ~ 8200 2950
+	7650 2400 7650 3000
+Connection ~ 7650 3000
 $Comp
 L #library:SW_and_D SW14
 U 1 1 5E86874B
-P 8400 2350
-F 0 "SW14" H 8678 2300 50  0000 L CNN
-F 1 "SW_and_D" H 8678 2209 50  0000 L CNN
-F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev5" H 8400 2550 50  0001 C CNN
-F 3 "" H 8400 2550 50  0001 C CNN
-	1    8400 2350
+P 7850 2400
+F 0 "SW14" H 8128 2350 50  0000 L CNN
+F 1 "SW_and_D" H 8128 2259 50  0000 L CNN
+F 2 "#footprint:CherryMX_MidHeight_Choc_16mm_rev8" H 7850 2600 50  0001 C CNN
+F 3 "" H 7850 2600 50  0001 C CNN
+	1    7850 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 2650 0    39   Input ~ 0
+Text GLabel 6200 2700 0    39   Input ~ 0
 Y2
-Text GLabel 6750 3250 0    39   Input ~ 0
+Text GLabel 6200 3300 0    39   Input ~ 0
 Y3
 Wire Wire Line
-	9300 3550 9300 4150
+	8750 3600 8750 4200
 Wire Wire Line
-	6750 5050 7550 5050
+	6200 5100 7000 5100
 Wire Wire Line
-	10350 3550 10350 4150
+	9800 3600 9800 4200
 Wire Wire Line
-	6750 4450 7550 4450
-Connection ~ 7550 5050
+	6200 4500 7000 4500
+Connection ~ 7000 5100
 Wire Wire Line
-	7550 5050 8600 5050
-Connection ~ 7150 4150
+	7000 5100 8050 5100
+Connection ~ 6600 4200
 Wire Wire Line
-	7150 4150 7150 4750
-Connection ~ 7550 4450
+	6600 4200 6600 4800
+Connection ~ 7000 4500
 Wire Wire Line
-	7550 4450 8600 4450
-Connection ~ 8600 5050
+	7000 4500 8050 4500
+Connection ~ 8050 5100
 Wire Wire Line
-	8600 5050 9700 5050
-Connection ~ 8200 4150
+	8050 5100 9150 5100
+Connection ~ 7650 4200
 Wire Wire Line
-	8200 4150 8200 4750
-Connection ~ 8600 4450
+	7650 4200 7650 4800
+Connection ~ 8050 4500
 Wire Wire Line
-	8600 4450 9700 4450
-Connection ~ 9700 5050
+	8050 4500 9150 4500
+Connection ~ 9150 5100
 Wire Wire Line
-	9700 5050 10750 5050
-Connection ~ 9300 4150
+	9150 5100 10200 5100
+Connection ~ 8750 4200
 Wire Wire Line
-	9300 4150 9300 4750
-Connection ~ 9700 4450
+	8750 4200 8750 4800
+Connection ~ 9150 4500
 Wire Wire Line
-	9700 4450 10750 4450
-Connection ~ 10350 4150
+	9150 4500 10200 4500
+Connection ~ 9800 4200
 Wire Wire Line
-	10350 4150 10350 4750
+	9800 4200 9800 4800
 Wire Wire Line
-	7150 1400 7150 1750
-Connection ~ 7150 1750
+	6600 1450 6600 1800
+Connection ~ 6600 1800
 Wire Wire Line
-	8200 1400 8200 1750
-Connection ~ 8200 1750
+	7650 1450 7650 1800
+Connection ~ 7650 1800
 Wire Wire Line
-	9300 1400 9300 1750
-Connection ~ 9300 1750
+	8750 1450 8750 1800
+Connection ~ 8750 1800
 Wire Wire Line
-	10350 1400 10350 1750
-Connection ~ 10350 1750
+	9800 1450 9800 1800
+Connection ~ 9800 1800
 $EndSCHEMATC

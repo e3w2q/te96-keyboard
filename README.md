@@ -5,7 +5,7 @@
 
 Expandable keyboard PCB with a smaller pitch.
 
-![main image](image/pcb.jpg?raw=true)
+![main image](doc/pcb.jpg?raw=true)
 
 ## What is the te96?
 
@@ -25,6 +25,6 @@ Anyone interested in keyboard could try the keyboard layout more easily.
 
 [Hardware data (PCB)](/pcb/)
 
-[Firmware](https://github.com/e3w2q/qmk_firmware/tree/su120/keyboards/handwired/su120)
+[Firmware](https://github.com/e3w2q/qmk_firmware/tree/master/keyboards/e3w2q/te96)
 
-![te96](image/keypad.jpg?raw=true)
+![te96](doc/keypad.jpg?raw=true)
