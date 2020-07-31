@@ -1,5 +1,5 @@
-(module CherryMX_MidHeight_Choc_16mm_rev8 (layer F.Cu) (tedit 5F0C6EDA)
-  (fp_text reference SW1 (at -7 -8.1 -180) (layer F.SilkS) hide
+(module CherryMX_MidHeight_Choc_16mm_rev8 (layer F.Cu) (tedit 5F243099)
+  (fp_text reference SW24 (at -7 -8.1 -180) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SW_and_D (at 7.4 8.1 -180) (layer F.Fab) hide
@@ -86,10 +86,10 @@
   (pad 1 thru_hole oval (at -5 3.8 180) (size 2 1.2) (drill oval 1.2 0.4) (layers *.Cu B.Mask))
   (pad "" np_thru_hole circle (at -4.5 0 180) (size 1.68 1.68) (drill 1.68) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 4.5 0 180) (size 1.68 1.68) (drill 1.68) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 0 0 270) (size 5.15 5.15) (drill 5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0 270) (size 5.15 5.15) (drill 4.75) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -5.08 0 180) (size 1.68 1.68) (drill 1.68) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.68 1.68) (drill 1.68) (layers *.Cu *.Mask))
-  (pad "" thru_hole oval (at 5 -5.45 180) (size 2 1.2) (drill oval 1.2 0.4) (layers *.Cu B.Mask))
+  (pad "" thru_hole oval (at 5 -5.45 180) (size 2 1.2) (drill oval 1.2 0.2) (layers *.Cu B.Mask))
   (pad 2 thru_hole circle (at -6 -3.25 90) (size 1.4 1.4) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 2 thru_hole circle (at 6 -3.25 90) (size 1.4 1.4) (drill 0.8128) (layers *.Cu B.Mask))
   (pad 1 thru_hole circle (at -2.25 6.75 90) (size 1.4 1.4) (drill 0.8128) (layers *.Cu B.Mask))

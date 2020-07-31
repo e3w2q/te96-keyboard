@@ -1,6 +1,6 @@
 # te96
 
-[![PCB Revision](https://img.shields.io/badge/PCB%20Revision-3-blue.svg)](https://github.com/e3w2q/te96-keyboard/tree/master/pcb)
+[![PCB Revision](https://img.shields.io/badge/PCB%20Revision-4-blue.svg)](https://github.com/e3w2q/te96-keyboard/tree/master/pcb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 Expandable keyboard PCB with a smaller pitch.
