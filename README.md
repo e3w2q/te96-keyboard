@@ -25,6 +25,6 @@ Anyone interested in keyboard could try the keyboard layout more easily.
 
 [Hardware data (PCB)](/pcb/)
 
-[Firmware](https://github.com/e3w2q/qmk_firmware/tree/master/keyboards/e3w2q/te96)
+[Firmware](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q/te96)
 
 ![te96](doc/keypad.jpg?raw=true)
