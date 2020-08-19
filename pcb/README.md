@@ -1,7 +1,7 @@
-# SU120 PCB Data
+# te96 PCB Data
 
 ## Schematic
-[Schematic PDF](../doc/su120.pdf?raw=true)
+[Schematic PDF](../doc/te96.pdf?raw=true)
 ![Schematic](../doc/schematic.png?raw=true)
 
 ## PCB Layout

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "te96 Sukeroku Keyboard"
 Date ""
-Rev "3"
+Rev "4"
 Comp "@e3w2q"
 Comment1 ""
 Comment2 ""
