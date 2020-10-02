@@ -6,6 +6,31 @@
 
 te96では基板間をビスケットで接続することである程度自由なキー配置が可能です。
 
+<!-- TOC -->
+
+- [te96で自由なレイアウトを作成するには](#te96で自由なレイアウトを作成するには)
+    - [基板の説明](#基板の説明)
+    - [配置できるキー数の上限](#配置できるキー数の上限)
+    - [カットした基板の接続](#カットした基板の接続)
+    - [ビスケット](#ビスケット)
+    - [作成可能なキーレイアウト](#作成可能なキーレイアウト)
+        - [Ortholinear（オーソリニア）、格子配列](#ortholinearオーソリニア格子配列)
+        - [Row-Staggered（ロウスタッガード）](#row-staggeredロウスタッガード)
+        - [Column-Staggered（カラムスタッガード）](#column-staggeredカラムスタッガード)
+    - [キーマトリクスの配線](#キーマトリクスの配線)
+        - [ROW間の配線](#row間の配線)
+        - [ROWとPro Microとの配線](#rowとpro-microとの配線)
+        - [COL間の配線](#col間の配線)
+        - [COLとPro Microとの配線](#colとpro-microとの配線)
+    - [ファームウェア](#ファームウェア)
+        - [左サイドにPro Microがある向きで使用する場合](#左サイドにpro-microがある向きで使用する場合)
+        - [上側にPro Microがある向きで使用する場合](#上側にpro-microがある向きで使用する場合)
+        - [Pro Microが向かい合う形で使用する場合](#pro-microが向かい合う形で使用する場合)
+        - [テスト用のキーマップ](#テスト用のキーマップ)
+        - [ファームウェアの書き込み](#ファームウェアの書き込み)
+
+<!-- /TOC -->
+
 ## 基板の説明
 
 基板1枚に縦6行、横4列、計24キーが配置されています。
@@ -187,7 +212,7 @@ qmk setup e3w2q/qmk_firmware --branch e3w2q
 
 と入力してください。
 
-または、`qmk setup`した後に、`C:\Users\USER_NAME\qmk_firmware\keyboards`配下に[https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q)以下をコピーしてもよいです。
+または、`qmk setup`した後に、`C:\Users\USER_NAME\qmk_firmware\keyboards`配下に[https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q)以下をコピーしてもよいです（Windowsの場合）。
 
 ### 左サイドにPro Microがある向きで使用する場合
 
