@@ -29,7 +29,7 @@ Anyone interested in keyboard could try the keyboard layout more easily.
 
 [Firmware](https://github.com/e3w2q/qmk_firmware/tree/e3w2q/keyboards/e3w2q/te96)
 
-<!-- [自由なレイアウトを作成するには](doc/custom_layout/readme_jp.md) -->
+[自由なレイアウトを作成するには](doc/custom_layout/readme_jp.md)
 
 ## Example
 
@@ -45,9 +45,8 @@ Anyone interested in keyboard could try the keyboard layout more easily.
 
 [ビルドガイド](doc/natto48/readme_jp.md)
 
-<!-- ### Column-Staggerd Keyboard
+### Column-Staggerd Keyboard
 
 ![tekka38](doc/tekka38/image/tekka38.jpg)
 
 [ビルドガイド](doc/tekka38/readme_jp.md)
--->
