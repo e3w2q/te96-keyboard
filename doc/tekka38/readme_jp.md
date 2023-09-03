@@ -310,10 +310,14 @@ qmk setup e3w2q/qmk_firmware --branch e3w2q
 
 用意されたキーマップを書き込むには以下を実行します。
 
-注：完成写真の左手側の配列で両手分作った場合のキーマップとなっています。
-
+```sh
+# 右手用のPro Microに書き込む場合
+qmk flash -kb e3w2q/te96/rev1_inverted -km tekka38 -bl avrdude-split-right
 ```
-qmk flash -kb e3w2q/te96/rev1_inverted -km tekka38
+
+```sh
+# 左手用のPro Microに書き込む場合
+qmk flash -kb e3w2q/te96/rev1_inverted -km tekka38 -bl avrdude-split-left
 ```
 
 `Detecting USB port, reset your controller now...`と表示されたらPro Microの`GND`と`RST`をピンセットやクリップなどで短絡させると書き込みが始まります。
